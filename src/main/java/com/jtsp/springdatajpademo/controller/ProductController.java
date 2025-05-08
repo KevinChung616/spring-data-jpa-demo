@@ -1,6 +1,7 @@
 package com.jtsp.springdatajpademo.controller;
 
-import com.jtsp.springdatajpademo.entity.Product;
+import com.jtsp.springdatajpademo.model.entity.Product;
+import com.jtsp.springdatajpademo.service.InventoryService;
 import com.jtsp.springdatajpademo.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 public class ProductController {
 
     private final ProductService productService;
+
 
     @Autowired
     public ProductController(ProductService productService) {

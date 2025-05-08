@@ -1,4 +1,4 @@
-package com.jtsp.springdatajpademo.entity;
+package com.jtsp.springdatajpademo.model.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,6 +1,6 @@
 package com.jtsp.springdatajpademo.service;
 
-import com.jtsp.springdatajpademo.entity.Product;
+import com.jtsp.springdatajpademo.model.entity.Product;
 import com.jtsp.springdatajpademo.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,4 +30,5 @@ public class ProductService {
         productRepository.deleteById(id);
         return true;
     }
+
 }
